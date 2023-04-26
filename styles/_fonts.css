@@ -1,0 +1,18 @@
+@font-face {
+    font-family: IranianSans;
+    src: url('./fonts/iraniansans/iraniansans.eot');
+    src: url('./fonts/iraniansans/iraniansans.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/iraniansans/iraniansans.woff') format('woff'),
+    url('./fonts/iraniansans/iraniansans.ttf') format('truetype');
+    font-weight: normal;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: IranianSans;
+    src: url('./fonts/iraniansans/iraniansans_bold.eot');
+    src: url('./fonts/iraniansans/iraniansans_bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/iraniansans/iraniansans_bold.woff') format('woff'),
+    url('./fonts/iraniansans/iraniansans_bold.ttf') format('truetype');
+    font-weight: bold;
+}

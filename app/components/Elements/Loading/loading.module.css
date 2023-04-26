@@ -1,0 +1,33 @@
+.loading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    position: relative;
+}
+
+.loading-btn{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.loading-btn img{
+    width: 50px !important;
+}
+
+.loading-absolute{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: var(--white);
+    z-index: 5;
+}
+
+.bg-show{
+    background: rgba(255, 255, 255, 0.75) !important;
+}
